@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 12.5">
+    <g id="prefix__Group_317" data-name="Group 317" transform="translate(-1196.402 -62.56)">
+        <g id="prefix__Group_173" data-name="Group 173" transform="translate(4 7.56)">
+            <path id="prefix__Rectangle_25" d="M0 0H16V10.5H0z" data-name="Rectangle 25" transform="translate(1193.401 56)" style="fill:red"/>
+            <path id="prefix__Rectangle_28" d="M0 0H16V3.5H0z" data-name="Rectangle 28" transform="translate(1193.401 63)" style="fill:#01953f"/>
+        </g>
+        <g id="prefix__Rectangle_75" data-name="Rectangle 75" transform="translate(1197.402 63.56)" style="stroke:#c4d6e4;fill:none">
+            <rect width="16" height="10.5" rx="2" style="stroke:none"/>
+            <rect width="17" height="11.5" x="-.5" y="-.5" rx="2.5" style="fill:none"/>
+        </g>
+    </g>
+</svg>

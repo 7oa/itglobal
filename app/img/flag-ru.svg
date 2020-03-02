@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 12.5">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <rect id="prefix__Rectangle_26" width="16" height="10.5" class="prefix__cls-1" data-name="Rectangle 26" rx="2" transform="translate(1194 56)"/>
+        </clipPath>
+        <style>
+            .prefix__cls-1{fill:#f10}
+        </style>
+    </defs>
+    <g id="prefix__flag" transform="translate(-1209.402 -60)">
+        <g id="prefix__Mask_Group_1" data-name="Mask Group 1" transform="translate(16.401 5)">
+            <rect id="prefix__Rectangle_25" width="16" height="10.5" data-name="Rectangle 25" rx="4" transform="translate(1194 56)" style="fill:#338ffa"/>
+            <path id="prefix__Rectangle_27" d="M0 0H16V3.5H0z" data-name="Rectangle 27" transform="translate(1194 56)" style="fill:#fff"/>
+            <path id="prefix__Rectangle_28" d="M0 0H16V3.5H0z" class="prefix__cls-1" data-name="Rectangle 28" transform="translate(1194 63)"/>
+        </g>
+        <g id="prefix__Rectangle_75" data-name="Rectangle 75" transform="translate(1210.402 61)" style="stroke:#c4d6e4;fill:none">
+            <rect width="16" height="10.5" rx="2" style="stroke:none"/>
+            <rect width="17" height="11.5" x="-.5" y="-.5" rx="2.5" style="fill:none"/>
+        </g>
+    </g>
+</svg>

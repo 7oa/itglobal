@@ -1,0 +1,83 @@
+.submenu {
+  position: absolute;
+  top: 0;
+  background-color: $white;
+  left: 100%;
+  bottom: 0;
+  z-index: 3;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  transition: 0.5s;
+  padding: 0 15px;
+  box-sizing: border-box;
+  &__title {
+    cursor: pointer;
+    font-family: $f-Montserrat;
+    font-size: 17px;
+    font-weight: $medium;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: 0.34px;
+    color: $gray;
+    padding: 15px 15px;
+    position: relative;
+    border-bottom: 1px solid $border;
+    &:before {
+      content: "";
+      position: absolute;
+      left: 2px;
+      top: 22px;
+      width: 5px;
+      height: 5px;
+      border-left: 2px solid $blue;
+      border-bottom: 2px solid $blue;
+      transform: rotate(45deg);
+      @media screen and (min-width: $w-tablet) {
+        left: 12px;
+      }
+    }
+    @media screen and (min-width: $w-tablet) {
+      padding-left: 28px;
+    }
+  }
+  &__list {
+    list-style: none;
+    padding: 0 15px;
+    margin: 0;
+    overflow-y: auto;
+    height: calc(100% - 51px);
+    padding-top: 9px;
+    box-sizing: border-box;
+    @media screen and (min-width: $w-tablet) {
+      padding-left: 28px;
+    }
+    &::-webkit-scrollbar {
+      width: 5px;
+    }
+    &::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: darkgrey;
+      outline: 1px solid slategrey;
+    }
+  }
+  &__link {
+    display: block;
+    font-family: $f-Montserrat;
+    font-size: 15px;
+    font-weight: $medium;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: $gray;
+    padding: 8px 0;
+    text-decoration: none;
+  }
+  &.open {
+    left: 0;
+  }
+}

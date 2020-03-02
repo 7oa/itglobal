@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 12.5">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <rect id="prefix__Rectangle_26" width="16" height="10.5" data-name="Rectangle 26" rx="2" transform="translate(1193.401 56)" style="fill:#f10"/>
+        </clipPath>
+        <style>
+            .prefix__cls-3{fill:#fff}
+        </style>
+    </defs>
+    <g id="prefix__Group_1166" data-name="Group 1166" transform="translate(-1209.402 -60)">
+        <g id="prefix__Group_1165" data-name="Group 1165">
+            <g id="prefix__Mask_Group_1" data-name="Mask Group 1" transform="translate(17 5)">
+                <g id="prefix__Group_171" data-name="Group 171" transform="translate(871.201 5)">
+                    <path id="prefix__Rectangle_76" d="M0 0H14.854V10.5H0z" class="prefix__cls-3" data-name="Rectangle 76" transform="translate(322.2 51)"/>
+                    <path id="prefix__Path_7148" d="M322 61.5v-2.1h16.35v2.1zm0-6.3h16.35v2.1H322zm0-4.2h16.35v2.1H322z" data-name="Path 7148" transform="translate(.2)" style="fill:red"/>
+                    <path id="prefix__Rectangle_77" d="M0 0H6.366V6.3H0z" data-name="Rectangle 77" transform="translate(322.2 51)" style="fill:#001468"/>
+                    <path id="prefix__Path_7149" d="M329.244 56.888a.525.525 0 11.531-.525.529.529 0 01-.531.525zm0-1.838a.525.525 0 11.531-.525.529.529 0 01-.531.525zm-1.857 3.675a.525.525 0 11.531-.525.529.529 0 01-.531.525zm0-1.838a.525.525 0 11.531-.525.529.529 0 01-.531.526zm0-1.838a.525.525 0 11.531-.525.529.529 0 01-.531.526zm-1.857 3.675a.525.525 0 11.531-.525.529.529 0 01-.53.526zm0-1.838a.525.525 0 11.531-.525.529.529 0 01-.53.527zm0-1.838a.525.525 0 11.531-.525.529.529 0 01-.53.527zm3.714 2.625a.525.525 0 11-.531.525.529.529 0 01.531-.523z" class="prefix__cls-3" data-name="Path 7149" transform="translate(-2.004 -2.212)"/>
+                </g>
+            </g>
+        </g>
+        <g id="prefix__Rectangle_75" data-name="Rectangle 75" transform="translate(1210.402 61)" style="stroke:#c4d6e4;fill:none">
+            <rect width="16" height="10.5" rx="2" style="stroke:none"/>
+            <rect width="17" height="11.5" x="-.5" y="-.5" rx="2.5" style="fill:none"/>
+        </g>
+    </g>
+</svg>

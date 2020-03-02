@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ITGLOBAL</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="header">
+      <button class="burger-menu js-burger-button"><span></span><span></span><span></span></button>
+      <div class="menu js-menu">
+        <div class="menu__header">
+          <div class="menu__lang js-lang">
+            <div class="select-lang js-select-lang">
+              <div class="select-lang__selected js-select-lang-value">
+                <div class="select-lang__item"> <img class="select-lang__flag" src="img/sprite.svg#flag-ru"><span>RU</span></div>
+              </div>
+              <div class="select-lang__options js-select-lang-options"><a class="select-lang__option" href="#">
+                  <div class="select-lang__item"> <img class="select-lang__flag" src="img/sprite.svg#flag-en"><span>EN</span></div></a><a class="select-lang__option" href="#">
+                  <div class="select-lang__item"> <img class="select-lang__flag" src="img/sprite.svg#flag-be"><span>BE</span></div></a></div>
+            </div>
+          </div>
+          <div class="menu__search">
+            <form class="search-form js-search-form">
+              <input class="search-form__input js-search-input" type="text" placeholder="What are you looking for?">
+              <button class="search-form__button search-form__button_search js-search-open"></button>
+              <button class="search-form__button search-form__button_close close js-search-close"></button>
+            </form>
+          </div>
+          <div class="menu__back">
+            <button class="back-button js-back-button"></button>
+          </div>
+        </div>
+        <div class="menu__main">
+          <nav class="nav">
+            <li class="nav__item js-whith-submenu"><span class="nav__link">Services</span>
+              <div class="submenu js-submenu">
+                <div class="submenu__title js-submenu-close">Services</div>
+                <ul class="submenu__list">
+                  <li class="submenu__item"> 
+                    <div class="accordion js-accordion"><span class="submenu__link accordion__title js-accordion-title">Platforms</span>
+                      <ul class="accordion__list">
+                        <li class="accordion__item"> <a class="accordion__link" href="#">Aws </a></li>
+                        <li class="accordion__item"> <a class="accordion__link" href="#">GCP</a></li>
+                        <li class="accordion__item"> <a class="accordion__link" href="#">Azure </a></li>
+                        <li class="accordion__item"> <a class="accordion__link" href="#">AlibabaCloud</a></li>
+                        <li class="accordion__item"> <a class="accordion__link" href="#">MTS</a></li>
+                        <li class="accordion__item"> <a class="accordion__link" href="#">VMware, KVM</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="submenu__item"> 
+                    <div class="accordion js-accordion"><span class="submenu__link accordion__title js-accordion-title">Platforms</span>
+                      <ul class="accordion__list">
+                        <li class="accordion__item"> <a class="accordion__link" href="#">Aws </a></li>
+                        <li class="accordion__item"> <a class="accordion__link" href="#">GCP</a></li>
+                        <li class="accordion__item"> <a class="accordion__link" href="#">Azure </a></li>
+                        <li class="accordion__item"> <a class="accordion__link" href="#">AlibabaCloud</a></li>
+                        <li class="accordion__item"> <a class="accordion__link" href="#">MTS</a></li>
+                        <li class="accordion__item"> <a class="accordion__link" href="#">VMware, KVM</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="submenu__item"><a class="submenu__link" href="#">DevOps</a></li>
+                  <li class="submenu__item"> <a class="submenu__link" href="#">Servers</a></li>
+                  <li class="submenu__item"> <a class="submenu__link" href="#">Systems</a></li>
+                  <li class="submenu__item"> <a class="submenu__link" href="#">Applications</a></li>
+                  <li class="submenu__item"> 
+                    <div class="accordion js-accordion"><span class="submenu__link accordion__title js-accordion-title">Platforms</span>
+                      <ul class="accordion__list">
+                        <li class="accordion__item"> <a class="accordion__link" href="#">Aws </a></li>
+                        <li class="accordion__item"> <a class="accordion__link" href="#">GCP</a></li>
+                        <li class="accordion__item"> <a class="accordion__link" href="#">Azure </a></li>
+                        <li class="accordion__item"> <a class="accordion__link" href="#">AlibabaCloud</a></li>
+                        <li class="accordion__item"> <a class="accordion__link" href="#">MTS</a></li>
+                        <li class="accordion__item"> <a class="accordion__link" href="#">VMware, KVM</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav__item js-whith-submenu"><span class="nav__link">Managed IT</span>
+              <div class="submenu js-submenu">
+                <div class="submenu__title js-submenu-close">Managed IT</div>
+                <ul class="submenu__list">
+                  <li class="submenu__item"><a class="submenu__link" href="#">DevOps</a></li>
+                  <li class="submenu__item"> <a class="submenu__link" href="#">Servers</a></li>
+                  <li class="submenu__item"> <a class="submenu__link" href="#">Systems</a></li>
+                  <li class="submenu__item"> <a class="submenu__link" href="#">Applications</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav__item js-whith-submenu"><span class="nav__link">Hardware</span>
+              <div class="submenu js-submenu">
+                <div class="submenu__title js-submenu-close">Hardware</div>
+                <ul class="submenu__list">
+                  <li class="submenu__item"> 
+                    <div class="accordion js-accordion"><span class="submenu__link accordion__title js-accordion-title">Platforms</span>
+                      <ul class="accordion__list">
+                        <li class="accordion__item"> <a class="accordion__link" href="#">Aws </a></li>
+                        <li class="accordion__item"> <a class="accordion__link" href="#">GCP</a></li>
+                        <li class="accordion__item"> <a class="accordion__link" href="#">Azure </a></li>
+                        <li class="accordion__item"> <a class="accordion__link" href="#">AlibabaCloud</a></li>
+                        <li class="accordion__item"> <a class="accordion__link" href="#">MTS</a></li>
+                        <li class="accordion__item"> <a class="accordion__link" href="#">VMware, KVM</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="submenu__item"><a class="submenu__link" href="#">DevOps</a></li>
+                  <li class="submenu__item"> <a class="submenu__link" href="#">Servers</a></li>
+                  <li class="submenu__item"> <a class="submenu__link" href="#">Systems</a></li>
+                  <li class="submenu__item"> <a class="submenu__link" href="#">Applications</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav__item js-whith-submenu"><span class="nav__link">Company</span>
+              <div class="submenu js-submenu">
+                <div class="submenu__title js-submenu-close">Company</div>
+                <ul class="submenu__list">
+                  <li class="submenu__item"> <a class="submenu__link" href="#">Systems</a></li>
+                  <li class="submenu__item"> <a class="submenu__link" href="#">Applications</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav__item"><a class="nav__link" href="#">For Partners</a></li>
+          </nav>
+        </div>
+        <div class="menu__footer">
+          <div class="contacts">
+            <div class="contacts__title">Contacts</div><a class="contacts__phone" href="tel:88007775522">8 800 777 55 22</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="wrapper">
+      <div>page content</div>
+      <!--end content-->
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>

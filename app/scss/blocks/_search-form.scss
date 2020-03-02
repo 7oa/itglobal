@@ -1,0 +1,67 @@
+.search-form {
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px solid transparent;
+  transition: 0.5s;
+  position: relative;
+  &:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 0;
+    transition: 0.5s;
+    height: 2px;
+    background-color: $blue;
+  }
+  &__input {
+    border: none;
+    font-family: $f-Montserrat;
+    font-size: 13px;
+    font-weight: $medium;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: normal;
+    width: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+    padding-bottom: 10px;
+    &.open {
+      padding-left: 18px;
+      padding-right: 18px;
+      width: 100%;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  &__button {
+    width: 26px;
+    height: 20px;
+    background-size: contain;
+    background-position: center;
+    flex: 0 0 auto;
+    &_search {
+      background: url(img/sprite.svg#search) no-repeat;
+      background-position: left 0 top 2px;
+    }
+    &_close {
+      background: url(img/sprite.svg#close) no-repeat;
+      background-size: 22px 16px;
+      background-position: left 3px top 3px;
+    }
+    &.close {
+      width: 0;
+    }
+  }
+
+  &.open {
+    border-color: $border-blue;
+  }
+  &.focus {
+    &:after {
+      width: 100%;
+    }
+  }
+}

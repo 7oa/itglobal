@@ -1,0 +1,33 @@
+.contacts {
+  &__title {
+    font-family: $f-Montserrat;
+    font-size: 15px;
+    font-weight: $medium;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 0.3px;
+    color: $gray;
+    margin-bottom: 15px;
+    background: url(img/sprite.svg#pin) no-repeat;
+    background-size: 18px 11px;
+    background-position: center left -4px;
+    padding-left: 19px;
+  }
+  &__phone {
+    font-family: $f-Montserrat;
+    font-size: 15px;
+    font-weight: $medium;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 0.3px;
+    color: $gray;
+    margin-bottom: 15px;
+    text-decoration: none;
+    background: url(img/sprite.svg#phone) no-repeat;
+    background-size: 18px 11px;
+    background-position: center left -1px;
+    padding-left: 19px;
+  }
+}
