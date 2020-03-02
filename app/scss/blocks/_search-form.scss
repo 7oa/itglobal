@@ -36,6 +36,9 @@
       outline: none;
     }
   }
+  &__submit {
+    display: none;
+  }
   &__button {
     width: 26px;
     height: 20px;
