@@ -57,12 +57,14 @@
       width: 5px;
     }
     &::-webkit-scrollbar-track {
-      box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      box-shadow: inset 0 0 6px #eee;
     }
     &::-webkit-scrollbar-thumb {
-      background-color: darkgrey;
-      outline: 1px solid slategrey;
+      background-color: #ccc;
+      outline: 1px solid #ccc;
     }
+    scrollbar-color: #ccc #eee !important;
+    scrollbar-width: thin !important;
   }
   &__link {
     display: block;
