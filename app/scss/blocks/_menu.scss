@@ -40,7 +40,7 @@
   }
   &__lang {
     padding-left: 15px;
-    z &.hide {
+    &.hide {
       width: 0;
       padding-left: 0;
     }
