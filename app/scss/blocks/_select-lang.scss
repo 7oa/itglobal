@@ -48,8 +48,6 @@
     margin-right: 6px;
   }
   &.open {
-    .select-lang__options {
-    }
     .select-lang__selected {
       &:after {
         transform: rotate(-225deg);
