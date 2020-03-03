@@ -40,6 +40,8 @@
   }
   &__lang {
     padding-left: 15px;
+    width: 70px;
+    transition: 0.5s;
     &.hide {
       width: 0;
       padding-left: 0;
