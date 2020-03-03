@@ -42,7 +42,7 @@ gulp.task("pug", function() {
 });
 
 var autoprefixerOptions = {
-  browsers: ["last 2 version"]
+  browsers: ["last 2 version", "ie 11"]
 };
 
 gulp.task("sass", function() {
@@ -63,12 +63,19 @@ gulp.task("sass", function() {
 gulp.task("js", function() {
   gulp
     .src("app/js/script.js")
+    .pipe(rigger())
     .pipe(
       babel({
-        presets: ["@babel/preset-env"]
+        presets: [
+          [
+            "@babel/preset-env",
+            {
+              targets: "> 0.25%, not dead"
+            }
+          ]
+        ]
       })
     )
-    .pipe(rigger())
     .pipe(uglify())
     .pipe(gulp.dest(dest_path + "/js/"))
     .pipe(browserSync.stream());

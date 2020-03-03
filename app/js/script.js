@@ -1,3 +1,4 @@
+//= scripts/_polifill.js
 //= scripts/_utils.js
 //= scripts/_select-language.js
 //= scripts/_menu.js
