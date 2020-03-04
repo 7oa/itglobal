@@ -18,10 +18,9 @@
   }
   &__header {
     padding: 15px 15px 26px 15px;
-    display: flex;
-    align-items: flex-start;
+    position: relative;
     @media screen and (min-width: $w-tablet) {
-      padding: 33px 37px 40px 32px;
+      padding: 31px 37px 40px 30px;
     }
   }
   &__main {
@@ -29,33 +28,48 @@
     flex-grow: 1;
     position: relative;
     @media screen and (min-width: $w-tablet) {
-      padding: 0 22px 0 17px;
+      padding: 0 40px 0 30px;
     }
   }
   &__footer {
     padding: 29px 15px 29px 30px;
     @media screen and (min-width: $w-tablet) {
-      padding: 29px 22px 70px 32px;
+      padding: 29px 22px 70px 30px;
     }
   }
   &__lang {
     padding-left: 15px;
     width: 70px;
     transition: 0.5s;
+    position: relative;
+    z-index: 2;
+    background-color: $white;
     &.hide {
       width: 0;
+      z-index: auto;
       padding-left: 0;
     }
   }
   &__search {
-    margin-right: 22px;
-    flex-grow: 1;
+    position: absolute;
+    top: 15px;
+    right: 60px;
+    left: 15px;
     @media screen and (min-width: $w-tablet) {
-      margin-right: 35px;
+      top: 30px;
+      left: 30px;
+      right: 95px;
     }
   }
   &__back {
     line-height: 0;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    @media screen and (min-width: $w-tablet) {
+      top: 31px;
+      right: 37px;
+    }
   }
   &.open {
     right: 0;
