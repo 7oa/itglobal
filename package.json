@@ -8,7 +8,7 @@
     "@babel/core": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
     "browser-sync": "^2.18.13",
-    "gulp": "^3.8.11",
+    "gulp": "^5.0.1",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-babel": "^8.0.0",
     "gulp-cache": "^1.0.2",
